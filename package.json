@@ -1,0 +1,31 @@
+{
+  "name": "gomti_bazar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.5.1",
+    "@types/pg": "^8.11.8",
+    "drizzle-kit": "^0.24.2",
+    "nodemon": "^3.1.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "postgres": "^3.4.4"
+  }
+}

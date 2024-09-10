@@ -1,0 +1,15 @@
+{
+    "out": "./drizzle",
+    "schema": "./src/db/schema.ts",
+    "driver": "pg",
+    "dialect": "postgresql",
+    "breakpoints": false,
+    "dbCredentials": {
+        "host": "127.0.0.1",
+        "port": 5432,
+        "user": "postgres",
+        "password": "db1234db@",
+        "database": "drizzle-db"
+    },
+    "verbose": true
+}
